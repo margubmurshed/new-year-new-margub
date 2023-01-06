@@ -1,0 +1,236 @@
+/* Global styles */
+* {
+  font-family: "Work Sans";
+}
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.description {
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.btn-primary {
+  padding: 20px 30px;
+  border-radius: 10px;
+  background: #fff;
+  color: #005fac;
+  font-size: 24px;
+  font-weight: 600;
+  border: 1px solid #005fac;
+  transition: 0.5s all;
+}
+
+.btn-primary:hover {
+  transform: scale(1.05);
+  background-color: #005fac;
+  color: white;
+  border-color: white;
+}
+
+/* Header Styles */
+
+header {
+  height: 100vh;
+  background-image: url("../images/banner/banner3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 30px;
+  padding: 0 50px;
+  color: #fff;
+  text-align: right;
+}
+
+.header-title {
+  font-size: 80px;
+  font-weight: 700;
+}
+
+/* prev failure styles */
+
+.prev-failures {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin: 150px auto;
+  padding: 0 50px;
+}
+
+.failure-image,
+.failure-details {
+  flex-basis: 50%;
+}
+
+.failure-image img {
+  width: 100%;
+}
+
+.failure-details h2 {
+  color: #151414;
+  font-size: 45px;
+}
+
+.failure-details p,
+li {
+  color: #444343;
+}
+
+.failure-list li {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.failure-list li i {
+  font-size: 35px !important;
+  color: #16d887;
+}
+
+/* resolutions style */
+.resolutions h2 {
+  font-size: 45px;
+  color: #151414;
+  text-align: center;
+}
+
+.resolutions-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+  text-align: center;
+  padding: 50px 100px;
+}
+
+.resolution-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid #16d887;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.093);
+}
+
+.resolution-item:hover img {
+  transform: translateY(-10px) scale(1.05);
+}
+
+.resolution-item img {
+  width: 100px;
+  transition: 0.5s all;
+}
+
+.resolution-title {
+  font-size: 24px;
+  color: #151414;
+  line-height: 40px;
+}
+
+.resolution-description {
+  line-height: 28px;
+  color: #444343;
+}
+
+/* Think positive styles */
+
+.think-positive {
+  background: linear-gradient(
+      90deg,
+      rgba(0, 95, 172, 1) 0%,
+      rgba(0, 95, 172, 0) 100%
+    ),
+    url("/images/watch.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 150px 100px;
+  margin: 100px auto;
+  border-radius: 10px;
+}
+
+.think-positive h3 {
+  color: white;
+  font-size: 50px;
+}
+
+/* Footer styles */
+
+footer {
+  background: #151414;
+  padding: 150px 100px;
+}
+
+footer .container {
+  display: flex;
+  gap: 100px;
+  color: white;
+}
+
+.footer-information,
+.subscribe-container {
+  flex-basis: 50%;
+}
+
+.footer-title {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.footer-description {
+  font-size: 20px;
+  margin-bottom: 20px;
+  line-height: 35px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 30px;
+}
+
+.social-icons i {
+  font-size: 35px;
+  color: white;
+}
+
+.subscribe-container h4 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.subscribe-form {
+  display: flex;
+}
+
+.subscribe-form input[type="text"] {
+  width: 300px;
+  padding: 20px 30px;
+  font-size: 18px;
+  border-radius: 5px 0 0 5px;
+}
+
+.subscribe-btn {
+  background-color: #005fac;
+  color: #fff;
+  padding: 20px 30px;
+  font-size: 18px;
+  border-radius: 0 5px 5px 0;
+}

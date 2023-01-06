@@ -8,17 +8,21 @@
     <title>Welcome to new me</title>
     <link rel="stylesheet" href="styles/default.css">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/373f474c44.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <!-- Header section start -->
     <header>
-        <div class="container">
+        <div class="header container">
             <h1 class="header-title">All Thinks Are<br>Possible If You<br>believe</h1>
-            <p class="description">There are many variations of passages of Lorem Ipsum available, but the majority have
+            <p class="description">There are many variations of passages of Lorem Ipsum available,<br> but the majority
+                have
                 suffered alteration
-                in some form, by injected humour, or randomised words</p>
+                in some form, <br> by injected humour, or randomised words</p>
             <button class="btn-primary">Contact Us</button>
         </div>
     </header>
@@ -27,48 +31,61 @@
     <main>
         <!-- Previous Failure Section start -->
         <section class="prev-failures container">
-            <h2>My failures of previous year</h2>
-            <p class="description">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
-                piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock.</p>
-            <ul class="failure-list">
-                <li>Contrary to popular belief, is not simply.</li>
-                <li>Contrary to popular belief.</li>
-                <li>Contrary to popular , is not simply.</li>
-                <li>Contrary to popular belief, is not simply.</li>
-                <li>Contrary to popular simply.</li>
-            </ul>
+            <div class="failure-image">
+                <img src="images/person.png" alt="person">
+            </div>
+            <div class="failure-details">
+                <h2 class="mb-30">My failures of <br> previous year</h2>
+                <p class="description mb-30">Contrary to popular belief, Lorem Ipsum is not simply random text. It has
+                    roots
+                    in a
+                    piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock.
+                </p>
+                <ul class="failure-list">
+                    <li><i class="fa-solid fa-check"></i>Contrary to popular belief, is not simply.</li>
+                    <li><i class="fa-solid fa-check"></i>Contrary to popular belief.</li>
+                    <li><i class="fa-solid fa-check"></i>Contrary to popular , is not simply.</li>
+                    <li><i class="fa-solid fa-check"></i>Contrary to popular belief, is not simply.</li>
+                    <li><i class="fa-solid fa-check"></i>Contrary to popular simply.</li>
+                </ul>
+            </div>
         </section>
         <!-- Previous Failure Section end -->
         <!-- Resolution Section start -->
         <section class="resolutions container">
-            <h2>My New Year Resolutions</h2>
+            <h2 class="mb-30">My New Year Resolutions</h2>
             <div class="resolutions-container">
                 <div class="resolution-item">
                     <img src="images/icons/web.png" alt="web development">
                     <h3 class="resolution-title">Web Development</h3>
-                    <p class="resolution-description">I want to start</p>
+                    <p class="resolution-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit
+                        neque amet voluptas consequuntur ducimus voluptatibus corrupti totam</p>
                 </div>
                 <div class="resolution-item">
                     <img src="images/icons/js.png" alt="Javascript">
                     <h3 class="resolution-title">JavaScript</h3>
-                    <p class="resolution-description">I want to learn</p>
+                    <p class="resolution-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit
+                        neque amet voluptas consequuntur ducimus voluptatibus corrupti totam</p>
                 </div>
                 <div class="resolution-item">
                     <img src="images/icons/smoke.png" alt="smoking">
                     <h3 class="resolution-title">Quit Smoking</h3>
-                    <p class="resolution-description">I want to quit</p>
+                    <p class="resolution-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit
+                        neque amet voluptas consequuntur ducimus voluptatibus corrupti totam</p>
                 </div>
                 <div class="resolution-item">
                     <img src="images/icons/ecom.png" alt="ecommerce">
-                    <h3 class="resolution-title">Start My E-commerce Business</h3>
-                    <p class="resolution-description">I want to start my business</p>
+                    <h3 class="resolution-title">Start My <br> E-commerce Business</h3>
+                    <p class="resolution-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit
+                        neque amet voluptas consequuntur ducimus voluptatibus corrupti totam
+                    </p>
                 </div>
             </div>
         </section>
         <!-- Resolution Section end -->
         <!-- Think positive section start -->
         <section class="think-positive container">
-            <h3>Always keep a positive <br> Mindset</h3>
+            <h3 class="mb-30">Always keep a positive <br> Mindset</h3>
             <button class="btn-primary">Call Now</button>
         </section>
         <!-- Think positive section end -->
@@ -83,14 +100,16 @@
                 <p class="footer-description">Email: info@gmail.com</p>
                 <p class="footer-description">Phone: +8801700000000</p>
                 <div class="social-icons">
-
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
                 </div>
             </div>
             <div class="subscribe-container">
-                <h4>Subscribe</h4>
+                <h4 class="mb-30">Subscribe</h4>
                 <form class="subscribe-form">
-                    <input type="text">
-                    <input type="submit" value="Subscribe" class="btn-secondary">
+                    <input type="text" placeholder="Enter your email">
+                    <input type="submit" value="Subscribe" class="subscribe-btn">
                 </form>
             </div>
         </div>
