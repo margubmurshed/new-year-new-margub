@@ -51,7 +51,7 @@ header {
   justify-content: center;
   align-items: flex-end;
   gap: 30px;
-  padding: 0 50px;
+  padding: 0 100px;
   color: #fff;
   text-align: right;
 }
@@ -128,6 +128,7 @@ li {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.093);
+  flex-basis: 25%;
 }
 
 .resolution-item:hover img {
@@ -153,6 +154,10 @@ li {
 /* Think positive styles */
 
 .think-positive {
+  margin: 0 20px;
+}
+
+.think-positive .container {
   background: linear-gradient(
       90deg,
       rgba(0, 95, 172, 1) 0%,
@@ -209,6 +214,11 @@ footer .container {
 .social-icons i {
   font-size: 35px;
   color: white;
+  transition: 0.5s ease;
+}
+
+.social-icons i:hover {
+  transform: translateY(-10px);
 }
 
 .subscribe-container h4 {
