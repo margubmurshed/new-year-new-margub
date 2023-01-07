@@ -13,7 +13,11 @@
 }
 
 .mb-30 {
-  margin-bottom: 30px;
+  margin-bottom: 30px !important;
+}
+
+.mt-30 {
+  margin-top: 30px !important;
 }
 
 .btn-primary {
@@ -34,14 +38,31 @@
   border-color: white;
 }
 
+.underlined-text span {
+  color: #005fac;
+  text-decoration: underline;
+}
+
+.background {
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: cover !important;
+}
+
+.font-45 {
+  font-size: 45px;
+}
+
+.flex-align-center {
+  display: flex !important;
+  align-items: center !important;
+}
+
 /* Header Styles */
 
 header {
   height: 100vh;
   background-image: url("../images/banner/banner3.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .header {
@@ -61,13 +82,47 @@ header {
   font-weight: 700;
 }
 
+/* Introduction styles */
+
+.introduction {
+  margin-top: 100px;
+  padding: 0 100px;
+}
+
+.introduction-title {
+  color: #151414;
+  text-align: center;
+}
+
+.intro-details h3 {
+  color: #151414;
+  font-size: 35px;
+}
+
+.new-year-text {
+  width: fit-content;
+  background-color: #151414;
+  color: white;
+
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.intro-details,
+.intro-image {
+  flex-basis: 50%;
+}
+
+.intro-image img {
+  width: 100%;
+}
+
 /* prev failure styles */
 
 .prev-failures {
   display: flex;
   align-items: center;
   gap: 50px;
-  margin: 150px auto;
   padding: 0 50px;
 }
 
@@ -82,7 +137,10 @@ header {
 
 .failure-details h2 {
   color: #151414;
-  font-size: 45px;
+}
+
+.failure-details h2 span {
+  color: #f24848;
 }
 
 .failure-details p,
@@ -104,10 +162,16 @@ li {
 }
 
 /* resolutions style */
+.resolutions {
+  margin-top: 150px;
+}
 .resolutions h2 {
-  font-size: 45px;
   color: #151414;
   text-align: center;
+}
+
+.resolutions h2 span {
+  color: #16d887;
 }
 
 .resolutions-container {
@@ -200,9 +264,6 @@ li {
       rgba(0, 95, 172, 0) 100%
     ),
     url("../images/watch.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   padding: 150px 100px;
   margin: 100px auto;
   border-radius: 10px;
@@ -232,7 +293,6 @@ footer .container {
 }
 
 .footer-title {
-  font-size: 45px;
   margin-bottom: 20px;
 }
 
