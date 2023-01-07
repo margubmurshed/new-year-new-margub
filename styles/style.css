@@ -38,7 +38,7 @@
   border-color: white;
 }
 
-.underlined-text span {
+.underlined-text {
   color: #005fac;
   text-decoration: underline !important;
 }
