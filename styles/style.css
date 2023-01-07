@@ -124,31 +124,67 @@ li {
   justify-content: center;
   align-items: center;
   gap: 20px;
-  border: 1px solid #16d887;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.093);
   flex-basis: 25%;
+  color: #fff;
+  transition: 0.5s ease;
 }
 
-.resolution-item:hover img {
-  transform: translateY(-10px) scale(1.05);
+.resolution-item:nth-child(1) {
+  background-color: #f24848;
+  border: 1px solid #f24848;
+  box-shadow: 0 0 100px rgba(255, 0, 0, 0.4);
+}
+.resolution-item:nth-child(2) {
+  transform: translateY(50px);
+  background-color: #ffc436;
+  border: 1px solid #ffc436;
+  box-shadow: 0 0 100px rgba(255, 238, 0, 0.4);
+}
+.resolution-item:nth-child(3) {
+  background-color: #19c998;
+  border: 1px solid #19c998;
+  box-shadow: 0 0 100px rgba(0, 255, 157, 0.4);
+}
+.resolution-item:nth-child(4) {
+  transform: translateY(50px);
+  background-color: #7365f6;
+  border: 1px solid #7365f6;
+  box-shadow: 0 0 100px rgba(85, 0, 255, 0.4);
 }
 
-.resolution-item img {
-  width: 100px;
-  transition: 0.5s all;
+.resolution-item i {
+  font-size: 60px;
+  padding: 20px 0;
+  transition: 0.5s ease;
 }
 
 .resolution-title {
   font-size: 24px;
-  color: #151414;
   line-height: 40px;
 }
 
 .resolution-description {
   line-height: 28px;
-  color: #444343;
+}
+
+.resolution-item:hover {
+  background-color: white;
+  color: #151414;
+}
+
+.resolution-item:nth-child(1):hover i {
+  color: #f24848;
+}
+.resolution-item:nth-child(2):hover i {
+  color: #ffc436;
+}
+.resolution-item:nth-child(3):hover i {
+  color: #19c998;
+}
+.resolution-item:nth-child(4):hover i {
+  color: #7365f6;
 }
 
 /* Think positive styles */
